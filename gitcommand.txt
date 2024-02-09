@@ -1,6 +1,22 @@
-Git basic command
-Git --version
-Git status
-Git init
-git add filename
-g
+git status
+git init(init a new repository in local directory)
+git and filename()
+git add .
+(add all untracked files and changes to staging area)
+git commit-m(meana message) "new file corrupted"
+git config  --global.user.email "youremailid"
+git config --global user.name "your name"
+git log
+git diff
+
+
+Branch
+git Branch
+git branch second-branch(for creating a new branch)
+git checkout branch name(for using that second branch)
+git checkout -b third-branch(create and switch to third branch)
+git remote add origin some url (connect local repository to remote repository)
+
+git push -u origin master
+git push --set-upstream origin branch name
+(for pushing the information on another branch)
